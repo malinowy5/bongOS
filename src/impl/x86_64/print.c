@@ -21,8 +21,8 @@ void clear_row(size_t row){
 		color: color,
 	};
 
-	for (size_t i = 0; i < NUM_ROWS; i++){
-		buffer[col + NUM_COLS * row] = empty;
+	for (size_t i = 0; i < NUM_COLS; i++){
+		buffer[i + NUM_COLS * row] = empty;
 	}
 }
 
