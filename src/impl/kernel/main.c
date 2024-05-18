@@ -1,7 +1,7 @@
 #include "print.h"
 
-// void setup_idt();
-// void setup_pic();
+void setup_idt();
+void setup_pic();
 
 void kernel_main(){
 
